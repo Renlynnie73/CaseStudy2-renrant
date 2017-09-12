@@ -50,12 +50,13 @@ html {
    background-size: cover;
    background-position: bottom;'
      padding: 10px!important;
-   
+
 }
 
 body {
-    background-color: #1a0a00 !important;
+    background-color: #000000 !important;
     margin-bottom: 60px;
+    padding: 12px;
 }
 
 .col-lg-4
@@ -67,21 +68,25 @@ body {
    width: 100%;
    background: #000;
    margin: 0.1em 0.8em -0.1em 0;
-   
+
 }
 .list-group-item {
    margin-top: 0.5em;
 }
 
+.col-lg-12
+{
+ background-color: #F9F9FF!important;
+  padding: 10px!important;
+}
 
- 
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 a.nav-expander {
   background: none repeat scroll 0 0 #000000;
-  color: #FF8C00;
+  color: #E65C00;
   display: block;
   font-size: 15px;
   font-weight: 400;
@@ -96,6 +101,8 @@ a.nav-expander {
   transition: right 0.3s ease-in-out 0s;
   width: 130px;
   z-index: 12;
+
+
 
   transition: right 0.3s ease-in-out 0s;
   -webkit-transition: right 0.3s ease-in-out 0s;
@@ -117,7 +124,7 @@ a.nav-expander.fixed {
 }
 
 nav {
-  background: #696969;
+  background: #3f3f3f;
   display: block;
   height: 100%;
   overflow: auto;
@@ -127,7 +134,9 @@ nav {
   top: 0;
   width: 20em;
   z-index: 2000;
-  
+
+
+
   transition: right 0.3s ease-in-out 0s;
   -webkit-transition: right 0.3s ease-in-out 0s;
   -moz-transition: right 0.3s ease-in-out 0s;
@@ -144,6 +153,7 @@ body.nav-expanded {
   -webkit-transition: right 0.4s ease-in-out 0s;
   -moz-transition: right 0.4s ease-in-out 0s;
   -o-transition: right 0.4s ease-in-out 0s;
+
 }
 
 #nav-close {
@@ -158,7 +168,7 @@ body.nav-expanded {
 }
 
 .main-menu li {
-  border-bottom: 1px solid #323949;
+  border-bottom: 1px solid #FFFFFF;
   margin-left: 20px;
   font-size: 18px;
   padding: 12px;
@@ -170,7 +180,7 @@ body.nav-expanded {
 }
 
 .main-menu li a:hover {
-  color: #FF8C00;
+  color: #E65C00;
   text-decoration: none;
 }
 
@@ -255,9 +265,10 @@ body.nav-expanded {
 
 img
 {
-	padding: 0;
+
    margin: 12px auto;
-	
-	
-	
+   display: block;
+   padding: 10;
+
+
 }
