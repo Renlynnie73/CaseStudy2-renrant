@@ -272,7 +272,15 @@ img
    display: block;
    padding: 10px!important;
 
+}
 
 
+.imgtime
+{
 
+   margin: 20px auto;
+   display: block;
+   padding: 10px!important;
+   height: 350px;
+   width: 650px;
 }

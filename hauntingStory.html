@@ -25,7 +25,57 @@
     <![endif]-->
 
 	</style>
+  <script>
 
+  		//set timer
+  		var picTimer = setInterval(function() {randomMagic()}, 1000);
+
+  		//set timer for paragraph innerHTML
+  		var secondTimer= setInterval(function() {secCount()}, 1000);
+  		var counter = 1;//variable to count seconds and increment
+
+  		//function to random the number contains the conditional statements
+  		function randomMagic()
+  		{
+
+  		var randNumber = Math.floor(Math.random()*3);
+
+  			if (randNumber == 0){
+  			imageSwap('images/halloweenlights.jpg');
+  			}
+
+  			else if (randNumber == 1){
+  			imageSwap('images/tumblr_na1betLDcA1tx21j0o1_500.jpg');
+  			}
+
+  			else if (randNumber == 2){
+  			imageSwap('images/campfile.jpg');
+  			}
+  		}
+
+  		//function to exchange images
+  		function imageSwap(imageExchange)
+  		{
+  		var ImageChanger;
+  		ImageChanger = document.getElementById("myImages");
+  		ImageChanger.src = imageExchange;
+  		}
+
+  		//function to stop the timer
+  		function stopTimer()
+  		{
+  			clearInterval(picTimer);
+  		}
+
+  		//function for <p> element with display
+  		function secCount()
+  		{
+  		var paragraph = document.getElementById("secondCounter");
+  		paragraph.innerHTML = "<strong>Counter: </strong> " + counter + "</br> " + " Click image to stop image swapping.";
+  		counter++;
+  		}
+
+  	   </script>
   </head>
 
   <body class="">
@@ -59,8 +109,8 @@
 	   <div class="container jumnbo_contain">
 
 	        <a href="#" class="navbar-left"><img src="images/logo2.png" width="110" height="110" alt="logo"></a>
-          <h1>Haunting Story</h1>
-          <p>Halloween is not complete without a story!</p>
+          <h1>Spooklight</h1>
+          <p>Halloween is not complete without checking out the Spooklight</p>
 
        </div>
     </div>
@@ -70,55 +120,30 @@
 
    <div class="row">
         <div class="col-lg-12" >
-          <h2 class="display-3">Haunting Story</h2>
-          <p>History
-Bobbing and bouncing along a dirt road in northeast Oklahoma is the Hornet Spook Light, a paranormal enigma
-for more than a century. Described most often as an orange ball of light, the orb travels from east
-to west along a four-mile gravel road, long called the Devil's Promenade by area locals.
+        <img src="images/hq25_hornet_spook_light.jpg" width="600" height="290" alt="spooklight">
+          <h2 class="text-center display-3"><strong>Spooklight highlights</strong></h2>
+          <h3><strong>History</strong></h3>
+              <p>According to most accounts and wikipedia.org, the spooklight has appeared continually since the late 19th century, although
+                it was generally not well known to anyone but locals until after World War II.
+                Some date the first encounters with the light back to the Trail of Tears in the 1830s. However, the first documented sighting is generally accepted to have occurred in 1881, although some report sightings as far back as 1866.
+                The earliest published report dates back to 1936 in the Kansas City Star.</p>
+                <p>Though many paranormal and scientific investigators have studied the light, including the Army Corps of Engineers,
+                 no one has been able to provide a conclusive answer as to the origin of the light.</p>
+          <h3><strong>Spooklight Appearances</strong></h3>
+              <p> Its color is also not consistent: some eyewitnesses report a greenish glow while others describe it as orange,
+              red, yellow, or even blue. It is almost always said to be in the shape of a ball, although some say it more resembles a camping lantern traveling a couple of feet off the ground.</p>
 
-The Spook Light, often referred to as the Joplin Spook Light or the Tri-State Spook Light, is actually
-in Oklahoma near the small town of Quapaw. However, it is most often seen from the east, which is why it has been "attached” to the tiny hamlet of Hornet, Missouri, and the larger, better-known town of Joplin.
-
-According to the legend, the spook light was first seen by Indians along the infamous Trail of Tears in 1836; however, the first "official” report occurred in 1881 in a publication called the Ozark Spook Light.
-
-The ball of fire, described as varying from the size of a baseball to a basketball, dances and spins down the center
-of the road at high speeds, rising and hovering above the treetops, before it retreats and disappears.
-Others have said it sways from side to side, like a lantern being carried by some invisible force.
-In any event, the orange fire-like ball has reportedly been appearing nightly for well over 100 years. According to locals, the best time to view the spook light is between the hours of 10:00 pm and midnight and tends to shy away from large groups and loud sounds.</p>
-
-<p>Though many paranormal and scientific investigators have studied the light, including the Army Corps of Engineers,
- no one has been able to provide a conclusive answer as to the origin of the light.</p>
-
-<p>
-Explanations
-Many explanations have been presented over the years, including escaping natural gas, reflecting car lights and billboards,
-and will-o’-the-wisps, a luminescence created by rotting organic matter. However, all of these explanations fall short of being conclusive.
-</p>
-
-<p>
-As to the theory of escaping natural gas, which is common in marshy areas, the Hornet Light is seemingly not affected by wind or by rain, and how would it self-ignite? The idea that it might be a will-o’-the-wisp is discounted, as this biological phenomena does not display the intensity of the ball of light seen along the Devil's Promenade. Explanations of headlights or billboards are easily discarded, as the light was seen years before automobiles or billboards were made, and before a road even existed in the area.
-</p>
-One possible explanation that is not as easily discounted, but not yet proven conclusive, is that the lights are electrical atmospheric charges. In areas where rocks, deep below the earth’s surface, are shifting and grinding, an electrical charge can be created. This area, lying on a fault line running east from New Madrid, Missouri, westward to Oklahoma was the site of four earthquakes during the eighteenth century. These types of electrical fields are most commonly associated with earthquakes.
-<p>
-Legends & Lore
-Other interesting legends also abound about the light that provide a more ghostly explanation. The oldest is the story of a Quapaw Indian maiden who fell in love with a young brave. However, her father would not allow her to marry the man as he did not have a large enough dowry. The pair eloped but were soon pursued by a party of warriors. According to the legend, when the couple was close to being apprehended, they joined hands above the Spring River and leaped to their deaths. It was shortly after this event that the light began to appear and was attributed to the spirits of the young lovers.
- </p>
-
-<p>
-Another legend tells of a miner whose cabin was attacked by Indians while he was away. Upon his return, he found his wife and children missing and is said to continue looking for them along the old road, searching with his lantern.
-<p>
-Others say the Spook Light is the ghost of an Osage Indian chief who was decapitated in the area
-and continues to search for his lost head, with a lantern held high in his hand.
- </p>
-<p>
-Sightings of the Spook Light are common, sometimes even reported to be seen inside vehicles.
-A few people who have been walking along the road at night have even claimed to have felt the heat of the ball as it passed near them.
- </p>
-<p>
-Directions to the Spook Light
-From I-44, take exit 4 - HWY 86 South. Follow approx six miles to junction Route BB. Turn right on BB Highway and follow the road until it ends. Turn right again, go one mile, turn left on E50 Road (also known as Spooklight Road). Approx 1 1/2 - 2 miles is the darkest and best place to wait.
- </p>
+              <h3><strong>Directions</strong></h3>
+              <p>From I-44, take exit 4 - HWY 86 South. Follow approx six miles to junction Route BB. Turn right on BB Highway
+              and follow the road until it ends. Turn right again, go one mile, turn left on E50 Road (also known as Spooklight Road).
+              Approx 1 1/2 - 2 miles is the darkest and best place to wait.</p>
           <p><a class="btn btn-default" href="index.html">Click to go back to Home »</a></p>
+
+          <!--image used to start the exchane images-->
+			<img class=".imgtime" alt="Image" id="myImages" onclick="stopTimer()" src="images/halloweenlight.jpg"><br/>
+			<!--innerHTML the seconds and some verbiage-->
+
+
         </div>
 
   	 </div>
