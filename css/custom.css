@@ -48,7 +48,7 @@ html {
    background: #e65c00 /*url('../jumbo_bg2.jpg') no-repeat*/ !important;
 	 color: #F9F9FF!important;
    background-size: cover;
-   background-position: bottom;'
+   background-position: bottom;
      padding: 10px!important;
 
 }
@@ -63,7 +63,7 @@ body {
 {
  background-color: #F9F9FF!important;
   padding: 10px!important;
-    align: center;
+
 }
 .jumbo_contain {
    width: 100%;
@@ -79,7 +79,7 @@ body {
 {
  background-color: #F9F9FF!important;
   padding: 10px!important;
-  align: center;
+
 }
 
  /* ==========================================================================
@@ -268,9 +268,11 @@ body.nav-expanded {
 img
 {
 
-   margin: 12px auto;
+   margin: 20px auto;
    display: block;
-   padding: 10;
+   padding: 10px!important;
+
+
 
 
 }
