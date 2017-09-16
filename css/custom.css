@@ -53,6 +53,21 @@ html {
 
 }
 
+
+.imagecls {
+   background: #e65c00 /*url('../jumbo_bg2.jpg') no-repeat*/ !important;
+	 color: #F9F9FF!important;
+   background-size: cover;
+   background-position: bottom;
+     padding: 10px!important;
+
+.imagecontainer
+{
+color: #F9F9FF!important;
+
+}
+
+
 body {
     background-color: #000000 !important;
     margin-bottom: 60px;
@@ -283,4 +298,5 @@ img
    padding: 10px!important;
    height: 350px;
    width: 650px;
+   float: center;
 }
