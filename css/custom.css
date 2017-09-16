@@ -63,6 +63,7 @@ body {
 {
  background-color: #F9F9FF!important;
   padding: 10px!important;
+    align: center;
 }
 .jumbo_contain {
    width: 100%;
@@ -78,6 +79,7 @@ body {
 {
  background-color: #F9F9FF!important;
   padding: 10px!important;
+  align: center;
 }
 
  /* ==========================================================================
