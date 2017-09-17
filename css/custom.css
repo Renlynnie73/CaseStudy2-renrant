@@ -54,19 +54,6 @@ html {
 }
 
 
-.imagecls {
-   background: #e65c00 /*url('../jumbo_bg2.jpg') no-repeat*/ !important;
-	 color: #F9F9FF!important;
-   background-size: cover;
-   background-position: bottom;
-     padding: 10px!important;
-
-.imagecontainer
-{
-color: #F9F9FF!important;
-
-}
-
 
 body {
     background-color: #000000 !important;
@@ -80,6 +67,15 @@ body {
   padding: 10px!important;
 
 }
+
+.col-lg-12-4
+{
+ background-color: #F9F9FF!important;
+  padding: 10px!important;
+
+}
+
+
 .jumbo_contain {
    width: 100%;
    background: #000;
@@ -89,17 +85,6 @@ body {
 .list-group-item {
    margin-top: 0.5em;
 }
-
-.col-lg-12
-{
- background-color: #F9F9FF!important;
-  padding: 10px!important;
-
-}
-
-
-
-
 
 
  /* ==========================================================================
@@ -304,4 +289,12 @@ img
    height: 350px;
    width: 650px;
    float: center;
+}
+
+.cons
+{
+  background-color: #000000 !important;
+  margin-bottom: 60px;
+  padding: 12px;
+
 }
